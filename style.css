@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+.circles-row {
+    text-align: center;
+    padding-top: 5%;
+}
+
+svg {
+    overflow: visible;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-evenly;
+}
+
+#circle-one { 
+    fill: rgb(121, 162, 250);
+    stroke: black;
+    stroke-width: 5px;
+}
+
+#circle-two {  
+    fill: rgb(164, 238, 174);
+}
+
+.border {
+    stroke: black;
+    stroke-width: 5px;
+}
+
+.opacity {
+    opacity: 0.0;
+}
+
+#circle-three { 
+    fill: rgb(215, 172, 235);
+    stroke: black;
+    stroke-width: 5px;
+}
+
+text {
+    text-anchor: middle;
+    fill: black;
+    font-size: 25px;
+}
